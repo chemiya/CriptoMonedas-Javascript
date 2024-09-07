@@ -1,0 +1,50 @@
+.campoValor{
+    display:flex;
+    justify-content:space-between;
+   
+    color:white;
+    padding-left:40px;
+    padding-right:40px;
+    font-size:20px;
+    
+}
+
+.contenedorValores{
+    background-color: rgb(19, 142, 243);
+    border-radius:25px;
+    
+}
+
+.fotoCripto{
+    width:300px;
+    height:300px;
+}
+
+.fotoMoneda{
+    width:300px;
+    height:300px;
+}
+
+.tituloResultados{
+    text-align:center;
+    font-weight: bold;
+}
+
+*{
+    font-family:Quicksand;
+}
+
+.tituloCampos{
+    font-weight:bold;
+    font-size:30px;
+    text-decoration:underline;
+}
+
+#contenedorPrincipal{
+    /*background-image: url("fondo.jpg");*/
+    background-image: linear-gradient(to right, #fa709998 0%, #fee14096 100%),url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height:130vh;
+}
